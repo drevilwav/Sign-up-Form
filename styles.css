@@ -1,0 +1,39 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+
+body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: row;
+}
+
+.left-column {
+  width: 530px;
+  background-image: url(img/unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  margin-top: 25vh;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.logo img {
+  max-width: 80px;
+  margin-right: 10px;
+}
+
+.logo-text {
+  color: white;
+  font-size: 80px;
+  font-family: 'Norse';
+}
