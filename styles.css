@@ -6,7 +6,7 @@ body {
 
 
 body {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Helvetica, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   flex-direction: row;
 }
@@ -36,4 +36,63 @@ body {
   color: white;
   font-size: 80px;
   font-family: 'Norse';
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  padding-left: 40px; 
+  justify-content: flex-end;
+  padding-bottom: 40px;
+}
+
+.header,
+.footer {
+  flex: 1 1 0;
+  background-color: #f9fafb;
+}
+
+.main {
+  flex: 1 1 auto;
+}
+
+.header > p {
+  width: 650px;
+  font-size: 20px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;  
+  align-items: flex-start;
+  padding-left: 40px;
+  padding-top: 30px;
+  gap: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #596D48;
+  font-weight: 700;
+}
+
+#create {
+  background-color: #596D48;
+  color: #f9fafb;
+  font-size: 16px;
+  font-weight: 700;
+  height: 40px;
+  width: 200px;
+  border-style: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+  mar
+
 }
