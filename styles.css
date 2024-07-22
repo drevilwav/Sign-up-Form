@@ -1,3 +1,4 @@
+
 html,
 body {
   height: 100%;
@@ -55,12 +56,13 @@ body {
 
 .header,
 .footer {
-  flex: 1 1 0;
+  flex: 1 1 auto;
   background-color: #f9fafb;
 }
 
 .main {
   flex: 1 1 auto;
+  padding-left: 40px;
 }
 
 .header > p {
@@ -93,6 +95,38 @@ a {
   border-style: none;
   border-radius: 5px;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
-  mar
+}
 
+.speaker-form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px;
+  width: 600px;
+  margin-bottom: 20px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.form-row label {
+  font-size: 16px;
+}
+
+.form-row input {
+  border: 1px solid;
+  border-radius: 3px;
+  width: 260px;
+  height: 30px;
+}
+
+input:invalid {
+  border-color: red;
+}
+
+input:valid {
+  border-color: #ebe6e5;
 }
